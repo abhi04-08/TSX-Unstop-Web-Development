@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: yellow;
+    padding: 1em;
+    color: red;
+}
+nav ul{
+    display: flex;
+    gap: 1em;
+}
+nav ul li a{
+    display: inline-block;
+    color:green;
+    padding: 0.3em;
+}
+nav ul li a:hover{
+    background-color:palegreen;
+    border-radius: 5px;
+}
+main {
+    padding: 2em;
+    margin-top: 0;
+    background-color: bisque;
+}
+main h2{
+    color: red;
+}
+article {
+    margin-top:1em;
+    color: purple;
+}
+p{
+    padding:0.5em;
+}
+footer {
+    text-align: center;
+    padding: 1em;
+    color: peru;
+    background-color: aquamarine;
+}
